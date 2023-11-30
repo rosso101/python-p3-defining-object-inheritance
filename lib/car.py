@@ -1,4 +1,6 @@
-from vehicle import Vehicle
+from lib.vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    def go(self):
+        return "SKIT  SKIT BANG BANG!!"
+    
